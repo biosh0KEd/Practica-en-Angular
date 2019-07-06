@@ -28,4 +28,14 @@ export class AppComponent {
   animar(){
     this.state = (this.state === 'final') ? 'inicial' : 'final';
   }
+
+  funcionInicia(evento){
+    console.log("Iniciado");
+    console.log(evento);
+  }
+
+  funcionTermina(evento){
+    console.log("Terminado");
+    console.log(evento);
+  }
 }
